@@ -51,10 +51,6 @@ struct ContentView: View {
                     }
                 }
 
-
-                //                .frame(width: 30, height: 30)
-                //                .clipShape(RoundedRectangle(cornerRadius: 10))
-
                 VStack(alignment: .leading) {
                     Text(item.trackName)
                         .font(.headline)
